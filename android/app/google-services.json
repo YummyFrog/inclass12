@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85984333857",
+    "project_id": "flutterfirebasedemo88",
+    "storage_bucket": "flutterfirebasedemo88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85984333857:android:3f92eb7872331be90ad360",
+        "android_client_info": {
+          "package_name": "com.example.inclass11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFqgsdih_LCA0S_NvGAg2I6kPDRfp65o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85984333857:android:cdea0053fc2b387a0ad360",
+        "android_client_info": {
+          "package_name": "com.example.inclass12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFqgsdih_LCA0S_NvGAg2I6kPDRfp65o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
