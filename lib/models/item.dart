@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart'; // Add this import
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class InventoryItem {
   final String? id;
@@ -24,7 +24,7 @@ class InventoryItem {
       'quantity': quantity,
       'price': price,
       'category': category,
-      'lastUpdated': Timestamp.fromDate(lastUpdated), // Now recognizes Timestamp
+      'lastUpdated': Timestamp.fromDate(lastUpdated),
     };
   }
 

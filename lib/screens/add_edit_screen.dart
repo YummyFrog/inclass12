@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '../models/item.dart';  // Add this
+import '../models/item.dart';
 
 class AddEditItemScreen extends StatefulWidget {
   final bool isEditing;
