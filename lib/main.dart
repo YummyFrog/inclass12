@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
-import 'screens/list_screen.dart';  // Add this
-import 'screens/add_edit_screen.dart';  // Add this
-import 'models/item.dart';  // Add this
+import 'screens/list_screen.dart';  
+import 'screens/add_edit_screen.dart';  
+import 'models/item.dart';  
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

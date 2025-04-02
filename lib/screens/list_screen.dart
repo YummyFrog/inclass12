@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/item.dart';
-import '../screens/add_edit_screen.dart';  // Ensure this import exists
+import '../screens/add_edit_screen.dart';
 
 class InventoryListScreen extends StatefulWidget {
   const InventoryListScreen({super.key});
@@ -16,7 +16,6 @@ class _InventoryListScreenState extends State<InventoryListScreen> {
   bool _isDescending = false;
   String _sortColumn = 'name';
 
-  // 1. Move all methods before build()
   Future<bool> _confirmDelete(BuildContext context, InventoryItem item) async {
     return await showDialog(
       context: context,
